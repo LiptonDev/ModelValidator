@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ModelValidator</id>
+    <version>1.0.0</version>
+    <title>ModelValidator</title>
+    <authors>Alexandr Smirnov</authors>
+    <owners>Alexandr Smirnov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/LiptonOlolo/ModelValidator</projectUrl>
+    <description>Auto validation model for WPF</description>
+    <releaseNotes>Auto validation model for WPF</releaseNotes>
+    <copyright>Alexandr Smirnov 2020</copyright>
+    <tags>WPF Validation Validator MVVM</tags>
+  </metadata>
+  
+  <files>
+	<file src="content/ModelValidatorBase.cs.pp" target="content/Models"/>
+	<file src="content/ExampleModel.cs.pp" target="content/Models"/>
+  </files>
+</package>
