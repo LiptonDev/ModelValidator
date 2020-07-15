@@ -19,7 +19,7 @@ public class ExampleModel : ModelValidatorBase
 }
 ```
 
-Binding example:
+## Binding example:
 ```XAML
 <StackPanel>
     <TextBox Text="{Binding TestModel.ExampleString, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
